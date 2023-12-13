@@ -99,13 +99,15 @@ public class Main2 {
         film1.setTitlu("Titanic");
         System.out.println(film1.getTilu());
 
-        Inotator inotator1 = new Inotator();
+        Inotator inotator1 = new Inotator("Romania","fluture");
         inotator1.seAntreneaza();
         inotator1.seOdihneste();
+        System.out.println(inotator1.tara);
 
-        Maratonist maratonist1 = new Maratonist();
+        Maratonist maratonist1 = new Maratonist("Congo", "100 m");
         maratonist1.seAntreneaza();
         maratonist1.seOdihneste();
+        System.out.println(maratonist1.sport);
 
 
         animal1.scoateSunete();
@@ -118,6 +120,23 @@ public class Main2 {
 
         pisica1.scoateSunete();
         caine.scoateSunete();
+
+        Mamifer mamifer1 = new Pisica();
+        mamifer1.scoateSunete();
+
+        Pisica pisi1 = new Pisica();
+        Mamifer pisi2= pisi1;
+
+   //     Mamifer pisi3 = new Mamifer();
+   //     Pisica pisi4 = (Pisica) pisi3;
+
+
+
+
+
+
+
+
 
 
 

@@ -1,7 +1,9 @@
 import java.util.Dictionary;
 import java.util.HashMap;
+import java.util.Map;
 
 public class MyHashMap {
+
     public static void main(String[] args){
         HashMap <Integer, String> dictionarulNostru = new HashMap<>();
         dictionarulNostru.put(1,"First");
@@ -37,6 +39,25 @@ public class MyHashMap {
         dictionarStudenti.put("Rares", false);
         dictionarStudenti.put("Diana", true);
 
+        afiseazaStudentiAdmisi(dictionarStudenti);
+    }
+
+
+
+
+        public static void afiseazaStudentiAdmisi(HashMap<String, Boolean> dictionarStudenti){
+            for (String key : dictionarStudenti.keySet()) {
+                if (dictionarStudenti.get(key)==true) System.out.println(key);
+            }
+        }
+
+
+
+
+
+
+
+
 
 
 
@@ -44,4 +65,4 @@ public class MyHashMap {
 
 
     }
-}
+

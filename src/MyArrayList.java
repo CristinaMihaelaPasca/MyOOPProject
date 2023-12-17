@@ -25,8 +25,8 @@ public class MyArrayList {
 
         System.out.println(listaCursuri.get(1));
         System.out.println(listaCursuri.size());
-        for (String element:listaCursuri){
-            System.out.println(element);
+        for (String curs:listaCursuri){
+            System.out.println(curs);
         }
 
 

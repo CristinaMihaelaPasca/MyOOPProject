@@ -17,5 +17,27 @@ public class MyArrayList {
         System.out.println(listaNoastra.contains("Second"));
         System.out.println(listaNoastra.indexOf("Second")); //pe ce pozitie este second
 
+    ArrayList<String> listaCursuri = new ArrayList<>();
+    listaCursuri.add("Testare manuala");
+    listaCursuri.add("Testare automata");
+    listaCursuri.add("Front-end");
+    listaCursuri.add("Java");
+
+        System.out.println(listaCursuri.get(1));
+        System.out.println(listaCursuri.size());
+        for (String element:listaCursuri){
+            System.out.println(element);
+        }
+
+
+
+
+
+
+
+
+
+
+
     }
 }

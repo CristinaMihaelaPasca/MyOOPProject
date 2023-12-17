@@ -1,3 +1,4 @@
+import java.util.Dictionary;
 import java.util.HashMap;
 
 public class MyHashMap {
@@ -28,6 +29,19 @@ public class MyHashMap {
         for(String value: dictionarulNostru.values()){
             System.out.println(value);
         }
+
+        HashMap <String,Boolean> dictionarStudenti = new HashMap<>();
+        dictionarStudenti.put("Ioana", true);
+        dictionarStudenti.put("Cristina", true);
+        dictionarStudenti.put("Florin", false);
+        dictionarStudenti.put("Rares", false);
+        dictionarStudenti.put("Diana", true);
+
+
+
+
+
+
 
     }
 }
